@@ -14,6 +14,8 @@
 		CA67D3D2210BCDC800A2754B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA67D3D0210BCDC800A2754B /* LaunchScreen.storyboard */; };
 		CA67D3DD210BCDC800A2754B /* Prueba2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA67D3DC210BCDC800A2754B /* Prueba2Tests.swift */; };
 		CA67D3E8210BCDC800A2754B /* Prueba2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA67D3E7210BCDC800A2754B /* Prueba2UITests.swift */; };
+		CA67D3F7210BCE3500A2754B /* SlideNew.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA67D3F6210BCE3500A2754B /* SlideNew.xib */; };
+		CA67D3F9210BCE7000A2754B /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA67D3F8210BCE7000A2754B /* Slide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CA67D3E3210BCDC800A2754B /* Prueba2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prueba2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA67D3E7210BCDC800A2754B /* Prueba2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba2UITests.swift; sourceTree = "<group>"; };
 		CA67D3E9210BCDC800A2754B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA67D3F6210BCE3500A2754B /* SlideNew.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideNew.xib; sourceTree = "<group>"; };
+		CA67D3F8210BCE7000A2754B /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		CA67D3C6210BCDC700A2754B /* Prueba2 */ = {
 			isa = PBXGroup;
 			children = (
+				CA67D3F5210BCE2700A2754B /* View */,
 				CA67D3C7210BCDC700A2754B /* AppDelegate.swift */,
 				CA67D3C9210BCDC700A2754B /* ViewController.swift */,
 				CA67D3CB210BCDC700A2754B /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				CA67D3E9210BCDC800A2754B /* Info.plist */,
 			);
 			path = Prueba2UITests;
+			sourceTree = "<group>";
+		};
+		CA67D3F5210BCE2700A2754B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA67D3F6210BCE3500A2754B /* SlideNew.xib */,
+				CA67D3F8210BCE7000A2754B /* Slide.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +246,7 @@
 				CA67D3D2210BCDC800A2754B /* LaunchScreen.storyboard in Resources */,
 				CA67D3CF210BCDC800A2754B /* Assets.xcassets in Resources */,
 				CA67D3CD210BCDC700A2754B /* Main.storyboard in Resources */,
+				CA67D3F7210BCE3500A2754B /* SlideNew.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA67D3F9210BCE7000A2754B /* Slide.swift in Sources */,
 				CA67D3CA210BCDC700A2754B /* ViewController.swift in Sources */,
 				CA67D3C8210BCDC700A2754B /* AppDelegate.swift in Sources */,
 			);
